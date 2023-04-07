@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 
 # Load the data
-df = pd.read_csv("laptop_details_eda.csv")
+df = pd.read_csv("/laptop_details_eda.csv")
 
 
 # Define the features and target variables
