@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestRegressor
 # Load the data
 df = pd.read_csv("laptop_details_eda.csv")
 
-
 # Define the features and target variables
 X = df[['Rating', 'Brand Name', 'Ram_size', 'Ram_type', 'Operating system', 'Disk_type', 'Disk_size']]
 y = df['MRP']
